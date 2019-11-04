@@ -37,6 +37,9 @@ void printMatricies();
 void *sumOfMults(void *threadargs);
 /*------------------------------*/
 
+/**
+	PThreads can only pass 1 element
+*/
 struct thread_data {
 	int i;
 	int j;
